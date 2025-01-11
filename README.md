@@ -12,13 +12,13 @@ Execute the following command in your project root directory to start RabbitMQ:
 `docker run -it --rm --name rabbitmq -p 5672:5672 -p 15672:15672 rabbitmq:4.0-management`
 
 ## Start the Producer
-Navigate to the Producer folder in your terminal and run the Producer.
+Navigate to the Producer folder in your terminal and run the Producer with `dotnet run`.
 Enter the routing key (this will be used to send messages). For example:
 
 `Routing Key: fruits`
 
 ## Start the Consumer
-Navigate to the Consumer folder in your terminal and run the Consumer.
+Navigate to the Consumer folder in your terminal and run the Consumer with `dotnet run`.
 Enter the same routing key to listen for messages from the Producer. For example:
 
 `Routing Key: fruits`
